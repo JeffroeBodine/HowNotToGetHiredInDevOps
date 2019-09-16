@@ -20,6 +20,9 @@
 1. Don't use source control
 1. CI/CD pipelines
 1. Infrastructure as code
+
+--
+
 1. Testing
 1. Security
 1. On-prem vs. Cloud
