@@ -24,5 +24,5 @@
 1. Security
 1. On-prem vs. Cloud
 1. Ask for too much too soon
-1.1 Sell yourself first
-1.Don't be on the road or around a bunch of noise for a phone interview
+1. Sell yourself first
+1. Don't be on the road or around a bunch of noise for a phone interview
