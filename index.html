@@ -44,7 +44,7 @@
 
         <section>
           <h2>Don't use a professional looking email address</h2>
-         <h3><a>sassypants@aol.com</a></h3>
+         <h3><a>sassypants97@aol.com</a></h3>
         </section>
         <section>
           <h2>Don't have a resume with alphabet soup</h2>
@@ -95,14 +95,41 @@
           <h2>Don't ask any questions</h2>
           <img data-src="img/questionMark.png" height="400" width="300">
         </section>
-        <section>Don't know basic terminology (DevOps, SRE, SysAdmin)</section>
-        <section>Don't know standard terminology (infra as code, testing, K8s)</section>
-        <section>Constantly talk</section>
+        <section>
+          <h2>Don't know basic terminology</h2>
+          <medium>(DevOps, SRE, SysAdmin)</medium><br />
+          <medium>(Containers, CI/CD, Infrastructure as Code)</medium>
+        </section>
+        <section>
+          <h2>Constantly talking</h2>
+          <img data-src="img/talking.gif" height="300" width="600">
+        </section>
 
-        <section>Don't have any experience with text or code editors</section>
-        <section>Don't use source control</section>
-        <section>Don't know about or use any CI/CD pipelining tools</section>
-        <section>Don't know how to write a basic test</section>
+        <section>
+          <h3>Don't have any experience with multiple text or code editors</h3>
+          <img data-src="img/codeEditors.png" height="200" width="900">
+        </section>
+        <section>
+            <h2>Don't use source control</h2>
+            <img data-src="img/sourceControl.png" height="200" width="1200">
+          </section>
+        <section>
+          <h2>Don't know about or use any CI/CD pipelining tools</h2>
+        </section>
+        <section>
+          <h2>Don't know how to write a basic test</h2>
+          <pre><code class="hljs" data-trim>
+              var assert = require('assert');
+              var fizzbuzz = require('../src/fizzbuzz');
+              
+              describe('FizzBuzz', function() {
+                it('should return a list of the correct size', function() {
+                  var output = fizzbuzz.run(1, 5);
+                  assert.strictEqual(output.length, 5);
+                });
+              });
+          </code></pre>
+        </section>
         <section>Think that security is the responsibility of another team</section>
         <section>Don't know anything about the Cloud (On-prem is god)</section>
 			</div>
