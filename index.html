@@ -6,6 +6,14 @@
 
 		<title>reveal.js</title>
 
+    <meta name="description" content="A quick ignight talk about how NOT to get hired in Devops">
+		<meta name="author" content="Jeff Turner">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/black.css">
@@ -25,8 +33,58 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+          <h2>How NOT to get hired<br />in DevOps</h2>
+          <p>
+              <small>Created by
+                <a href="https://twitter.com/jeffroebodine">@JeffroeBodine</a>
+              </small>
+            </p>
+        </section>
+
+        <section>
+          <h2>Don't use a professional looking email address</h2>
+         <a><medium>snazzypants@aol.com</medium></a>
+        </section>
+        <section>
+          <h2>Don't have a resume with alphabet soup</h2>
+          <small>
+              Bash Shell Scripting, Git, bitbucket, Jenkins, Nexus, Ansible, Nagios, Oracle Virtual Box, Linux Centos 6&7 RHEL 6&7, Ubuntu, SUse, LVM, NAS, Apache, Jira/kanban board/Confluence/, Strong verbal and written communication skills, Apache, Oracle,APACHE web Server, Process management
+              Automation, QA,	Bash, Quality control, Hardware, x86, Dell,	Content, Scrum, Agile, Clients, SSH, WINDSCP, Customer service, Servers, Help Desk,	Customer support, Shell Scripting
+              Version Control, Shell scripts,	Database, MySql, Documentation, Tech Support, Confluence, English, French, German,Fast, Troubleshooting, Firewalls, Upgrades
+              French language, Web Server, Help Desk, Written communication skills, HTTP, Inventory, LAMP, Linux, Managing, Memory,	Access,	Migration, NAS, NFS, Network installation
+              Network, JavaScript, Java, C/C++, Python, C#, AWS, SQL, JSP, HTML, PHP, Database design, Networking, Jenkins, Website and electronic marketing, Docker, NoSQL, Ansible, Redis, SVN, Github, MongoDB, Elasticsearch, Graphite, Puppet, Chef, Kubernetes, OpenStack, Nginx, MariaDB, Salt-stack, High Avaialability, Bind DNS
+              
+          </small>
+        </section>
+        <section>
+          <h2>Don't put your Github repo on your resume if...</h2>
+          <img data-src="img/githubProfile.png" height="400" width="600">
+        </section>
+        <section>If you've been doing this for 10 years and you have a 10 page resume. You're going to have a hard time</section>
+        <section>If you're working with a recruiter. Don't ask them for help. They probably don't know better than you</section>
+
+        <section>Don't do any reasearch about the company you're hoping to work for</section>
+        <section>Don't research the stack that they're working in</section>
+        <section>
+          <h2>Don't show up on time</h2>
+          <img data-src="img/clock.jpeg" height="400" width="600">
+        </section>
+        <section>Don't show up prepared</section>
+        <section>Don't clean your room</section>
+
+        <section>Bait and switch</section>
+        <section>Don't ask any questions</section>
+        <section>Don't know basic terminology (DevOps, SRE, SysAdmin)</section>
+        <section>Don't know standard terminology (infra as code, testing, K8s)</section>
+        <section>Constantly talk</section>
+
+        <section>Don't have any experience with text or code editors</section>
+        <section>Don't use source control</section>
+        <section>Don't know about or use any CI/CD pipelining tools</section>
+        <section>Don't know how to write a basic test</section>
+        <section>Think that security is the responsibility of another team</section>
+        <section>Don't know anything about the Cloud (On-prem is god)</section>
 			</div>
 		</div>
 
@@ -42,9 +100,13 @@
 					{ src: 'plugin/markdown/markdown.js' },
 					{ src: 'plugin/notes/notes.js', async: true },
 					{ src: 'plugin/highlight/highlight.js', async: true }
-				]
+        ],
+        controls: true,
+				progress: true,
+				history: true,
+				center: true,
 			});
-      Reveal.configure({ autoSlide: 5000 });
+      // Reveal.configure({ autoSlide: 5000 });
 		</script>
 	</body>
 </html>
