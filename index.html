@@ -44,6 +44,7 @@
 
         <section>
           <h2>Don't use a professional looking email address</h2>
+          <br />
          <h3><a>sassypants6969@aol.com</a></h3>
         </section>
         <section>
@@ -58,7 +59,7 @@
         </section>
         <section>
           <h2>Don't put your Github repo on your resume if...</h2>
-          <img data-src="img/githubProfile.png" height="400" width="600">
+          <img data-src="img/githubProfile.png" height="400" width="700">
         </section>
         <section>
           <h2>Don't have a 10+ page resume</h2>
@@ -71,7 +72,7 @@
         </section>
 
         <section>
-          <h2>Don't do any reasearch about the company you're hoping to work for</h2></section>
+          <h2>Don't do any reasearch about the company you're interviewing with</h2></section>
         <section>
           <h2>Don't research the stack that they're working in</h2>
         </section>
@@ -89,28 +90,34 @@
 
         <section>
           <h2>Bait and switch</h2>
-          <small>If the person that phone screened isn't<br />the same person that shows up to the interview</small>
+          <br />
+          <medium>When the person that phone screened isn't<br />the same person that shows up to the interview</medium>
         </section>
         <section>
           <h2>Don't ask any questions</h2>
+          <br />
           <img data-src="img/questionMark.png" height="400" width="300">
         </section>
         <section>
           <h2>Don't know basic terminology</h2>
+          <br />
           <medium>(DevOps, SRE, SysAdmin)</medium><br />
           <medium>(Containers, CI/CD, Infrastructure as Code)</medium>
         </section>
         <section>
           <h2>Constantly talking</h2>
+          <br />
           <img data-src="img/talking.gif" height="300" width="600">
         </section>
 
         <section>
           <h3>Don't have any experience with multiple text or code editors</h3>
+          <br />
           <img data-src="img/codeEditors.png" height="200" width="900">
         </section>
         <section>
             <h2>Don't use source control</h2>
+            <br />
             <img data-src="img/sourceControl.png" height="200" width="1200">
           </section>
         <section>
@@ -118,6 +125,7 @@
         </section>
         <section>
           <h2>Don't know how to write a basic test</h2>
+          <br />
           <pre><code class="hljs" data-trim>
               var assert = require('assert');
               var fizzbuzz = require('../src/fizzbuzz');
@@ -132,10 +140,12 @@
         </section>
         <section>
           <h3>Think that security is the responsibility of another team</h3>
+          <br />
           <img data-src="img/security.jpg" height="350" width="300">
           </section>
         <section>
           <h4>Don't know anything about the Cloud<br />(On-prem is god)</h4>
+          <br />
           <img data-src="img/servers.jpg" height="400" width="700">
         </section>
         <section style="text-align: left;">
@@ -161,12 +171,16 @@
 					{ src: 'plugin/highlight/highlight.js', async: true }
         ],
         controls: true,
-				progress: true,
-        history: true,
+        progress: true,
         hash: true,
-				center: true,
+        history: true,
+        center: true,
+        keyboard: true,
+        overview: true,
+        showNotes: true,
+        autoSlide: 15000,
+        defaultTiming: 15,
 			});
-      Reveal.configure({ autoSlide: 15000 });
 		</script>
 	</body>
 </html>
